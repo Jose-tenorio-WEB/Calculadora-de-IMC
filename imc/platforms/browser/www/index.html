@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenório IMC</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+
+    <div class="cal">
+        <h1> Calculadora de IMC </h1>
+        <div class="forms">
+            <label> Peso (kg)</label>
+            <input type="text" pattern="[0-9]*" id="txt-peso" placeholder="Digite seu peso">
+            <label> Altura (cm)</label>
+            <input type="text" pattern="[0-9]*" id="txt-altura" placeholder="Digite sua altura">
+            <div class="result">
+                <label> <b>IMC:</b> <span id="lbl-imc"></span> </label>
+                <label> <b>Resultado :</b> <span id="lbl-resultado"></span></label>
+            </div>
+        </div>
+        <div class="btn">
+            <button id="btn-calcular" class="btn-positivo">Calcular</button>
+            <button id="btn-limpar" class="btn-negativo">Limpar</button>
+
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

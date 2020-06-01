@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(87, 13, 136);
+}
+
+.cal {
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.cal h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 25px
+}
+
+.forms label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.result {
+    display: none;
+    margin-top: 15px;
+}
+
+.result label {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn button {
+    flex-grow: 1;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.btn .btn-positivo {
+    background-color: #a475a0;
+    color: #000;
+    border-radius: 50px;
+}
+
+.btn .btn-negativo {
+    background-color: #a475a0;
+    color: #000;
+    border-radius: 50px;
+}
+
+.forms input {
+    border-width: 0px 0px 3px 0px;
+    border-color: #dadada;
+    font-size: x-large;
+}
